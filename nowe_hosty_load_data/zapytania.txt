@@ -1,0 +1,10 @@
+
+ALTER TABLE tabela AUTO_INCREMENT=0; - zerowanie autoincrementa
+
+DELETE FROM tabela - kasowanie zawartoœci tabeli
+
+SELECT * FROM tmp WHERE nowy_mac NOT IN (SELECT mac_address FROM znane_hosty) - wyci¹ganie z jednej tabeli wartosci nieobecnych w drugiej tabeli
+
+ALTER TABLE tabela ADD UNIQUE (pole, pole2); - tworzenie unikalnego indeksu dla pary kolumn
+
+CREATE UNIQUE INDEX imieNazwisko ON tabela (imie, nazwisko) - tworzenie unikalnego indeksu dla pary kolumn, drugi sposób
